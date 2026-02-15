@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Chen-Ye</title>
+    <link rel="stylesheet" href="Contacto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="Inicio.html">CHEN<span>YE</span></a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="Sobremi.html">Sobre mi</a></li>
+                    <li><a href="Contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content container">
+        <section class="intro">
+            <h2>Contacto</h2>
+            <hr>
+            <p>¿Tienes alguna propuesta o simplemente quieres saludar? ¡Escríbeme!</p>
+        </section>
+
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Información de contacto</h3>
+                <p>Estoy disponible para nuevos proyectos y colaboraciones.</p>
+                <br>
+                <ul class="contact-details">
+                    <li><strong>Email:</strong> cye@inscaparrella.cat</li>
+                    <li><strong>Ubicación:</strong> LLeida, España</li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/Chen-Yaz" target="_blank">@Chen-Yaz</a></li>
+                </ul>
+            </div>
+
+            <div class="contact-form-card">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" placeholder="tu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" rows="5" placeholder="¿Cómo puedo ayudarte?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; Chen Ye - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
